@@ -21,6 +21,7 @@ prompt([
       '✅ [RESOLVE-ISSUE]',
       '🚀 [DEPENDENCY-UPDATE]',
       '📄 [DOCUMENTATION]',
+      '🧹 [CHORE]',
     ],
   },
   { name: 'title', type: 'input', message: 'Enter commit title:' },
