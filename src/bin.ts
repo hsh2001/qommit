@@ -51,10 +51,10 @@ ${description}
   ]);
 
   if (confirmed) {
-    const escapedCommitMessage = commitMessage
-      .trim()
-      .replace(/\n/g, '\\n')
-      .replace(/\"/g, '\\"');
-    execa(`git commit ${flags} -m "${escapedCommitMessage}"`);
+    const args = ['commit', flags, `-m ${commitMessage.trim()}`];
+
+    if (flags) args.push(flags);
+
+    execa('git', args);
   }
 });
