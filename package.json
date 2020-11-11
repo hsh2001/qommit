@@ -4,7 +4,7 @@
   "description": "Git quick commit tool",
   "main": "index.js",
   "scripts": {
-    "prepulish": "npm run build",
+    "prepublish": "npm run build",
     "build": "tsc src/*.ts",
     "test": "jest --coverage",
     "lint": "eslint .",
