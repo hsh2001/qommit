@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { underline } from 'chalk';
 import * as execa from 'execa';
 import { prompt } from 'inquirer';
