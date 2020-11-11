@@ -52,7 +52,7 @@ ${description}
   ]);
 
   if (confirmed) {
-    const args = ['commit', flags, `-m ${commitMessage.trim()}`];
+    const args = ['commit', `-m ${commitMessage.trim()}`];
 
     if (flags) args.push(flags);
 
