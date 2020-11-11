@@ -1,6 +1,6 @@
 {
   "name": "qommit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Git quick commit tool",
   "main": "index.js",
   "scripts": {
