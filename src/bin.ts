@@ -16,7 +16,7 @@ prompt([
       ':wrench: [CREATE]',
       ':wastebasket: [REMOVE]',
       ':wrench: [UPDATE]',
-      ':bug: [BIGFIX]',
+      ':bug: [BUGFIX]',
       ':fire: [HOTFIX]',
       ':white_check_mark: [RESOLVE-ISSUE]',
       ':arrow_up: [DEPENDENCY-UPDATE]',
