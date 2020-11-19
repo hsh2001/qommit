@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "tsc src/*.ts",
+    "build": "tsc src/bin.ts --outDir build",
     "test": "jest --coverage",
     "lint": "eslint .",
     "prettier": "prettier . --write"
@@ -23,7 +23,7 @@
     "url": "https://github.com/hsh2001/qommit/issues"
   },
   "bin": {
-    "qommit": "./src/bin.js"
+    "qommit": "./build/bin.js"
   },
   "homepage": "https://github.com/hsh2001/qommit#readme",
   "husky": {
