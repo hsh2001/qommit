@@ -23,7 +23,7 @@
     "url": "https://github.com/hsh2001/qommit/issues"
   },
   "bin": {
-    "qommit": "src/bin.js"
+    "qommit": "./src/bin.js"
   },
   "homepage": "https://github.com/hsh2001/qommit#readme",
   "husky": {
